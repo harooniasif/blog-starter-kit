@@ -36,6 +36,15 @@ export default function RootLayout({
           sizes="32x32"
           href="/favicon/favicon-32x32.png"
         />
+
+        {/* GhostRef Tracking Script */}
+          <script
+            async
+            src="https://ghostref-ai.vercel.app/tracker.js"
+            data-site="2f4e3ea6-07a6-417f-8461-c8981ab3d578"
+          ></script>
+
+        
         <link
           rel="icon"
           type="image/png"
