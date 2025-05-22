@@ -67,6 +67,8 @@ export default function RootLayout({
           data-site="2f4e3ea6-07a6-417f-8461-c8981ab3d578"
           strategy="afterInteractive"
         />
+
+<script defer src="https://cloud.umami.is/script.js" data-website-id="eb5ffbfa-bdc1-40d2-959d-9523b980aafe"></script>
         <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>
         <Footer />
