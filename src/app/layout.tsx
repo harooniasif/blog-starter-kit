@@ -38,11 +38,8 @@ export default function RootLayout({
         />
 
         {/* GhostRef Tracking Script */}
-          <script
-            async
-            src="https://ghostref-ai.vercel.app/tracker.js"
-            data-site="2f4e3ea6-07a6-417f-8461-c8981ab3d578"
-          ></script>
+          <script async src="https://ghostref-ai.vercel.app/tracker.js" data-site="2f4e3ea6-07a6-417f-8461-c8981ab3d578"></script>
+
 
         
         <link
