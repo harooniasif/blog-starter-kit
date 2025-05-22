@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import cn from "classnames";
 import { ThemeSwitcher } from "./_components/theme-switcher";
+import Script from "next/script";
 
 import "./globals.css";
 
@@ -36,12 +37,6 @@ export default function RootLayout({
           sizes="32x32"
           href="/favicon/favicon-32x32.png"
         />
-
-        {/* GhostRef Tracking Script */}
-          <script async src="https://ghostref-ai.vercel.app/tracker.js" data-site="2f4e3ea6-07a6-417f-8461-c8981ab3d578"></script>
-
-
-        
         <link
           rel="icon"
           type="image/png"
@@ -66,6 +61,12 @@ export default function RootLayout({
       <body
         className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
       >
+        {/* GhostRef Tracking Script */}
+        <Script
+          src="https://ghostref-ai.vercel.app/tracker.js"
+          data-site="2f4e3ea6-07a6-417f-8461-c8981ab3d578"
+          strategy="afterInteractive"
+        />
         <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>
         <Footer />
