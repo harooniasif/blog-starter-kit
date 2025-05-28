@@ -67,7 +67,7 @@ export default function RootLayout({
   defer
   data-website-id="e054509a-7968-47b1-b70d-5cf8030643fb"
   data-host-url="https://ghostref-ai-2-0.onrender.com"
-  src="/script.js"
+  src="https://ghostref-ai-2-0.onrender.com/script.js"
 ></script>
         <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>
