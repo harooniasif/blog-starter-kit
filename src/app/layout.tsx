@@ -62,7 +62,13 @@ export default function RootLayout({
         className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
       >
         {/* GhostRef Tracking Script */}
-        <script defer src="https://ghostref-ai-2-0.onrender.com/script.js" data-website-id="e054509a-7968-47b1-b70d-5cf8030643fb"></script>
+        <script
+  async
+  defer
+  data-website-id="e054509a-7968-47b1-b70d-5cf8030643fb"
+  data-host-url="https://ghostref-ai-2-0.onrender.com"
+  src="/script.js"
+></script>
         <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>
         <Footer />
