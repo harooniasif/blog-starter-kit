@@ -62,7 +62,7 @@ export default function RootLayout({
         className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
       >
         {/* GhostRef Tracking Script */}
-        <script src="https://71c8ba25-3b81-43e1-b234-ce2c4ebe4784-00-2caxdngooiyg6.picard.replit.dev:5000/static/llm-snippet.js"></script>
+        <script src="https://71c8ba25-3b81-43e1-b234-ce2c4ebe4784-00-2caxdngooiyg6.picard.replit.dev:5000/static/llm-snippet.js?site_id=site_t7at23wg"></script>
         <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>
         <Footer />
